@@ -3605,8 +3605,4 @@
         <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION"/>
         <option name="KOTLIN_ANNOTATION" baseAttributes="ANNOTATION_NAME_ATTRIBUTES"/>
     </attributes>
-    <option name="FONT_SCALE" value="1.0"/>
-    <option name="LINE_SPACING" value="1.5"/>
-    <option name="EDITOR_LIGATURES" value="true"/>
-    <option name="CONSOLE_LIGATURES" value="true"/>
 </scheme>
