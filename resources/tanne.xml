@@ -116,11 +116,6 @@
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="2b3b37"/>
     </colors>
     <attributes>
-        <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="ffc757"/>
-            </value>
-        </option>
         <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
             <value>
                 <option name="FOREGROUND" value="ffd700"/>
@@ -513,14 +508,14 @@
         </option>
         <option name="DEFAULT_DOC_COMMENT_TAG">
             <value>
-                <option name="FOREGROUND" value="99bdb5"/>
+                <option name="FOREGROUND" value="a8c7c0"/>
                 <option name="FONT_TYPE" value="3"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
             <value>
-                <option name="FOREGROUND" value="99bdb5"/>
+                <option name="FOREGROUND" value="a8c7c0"/>
                 <option name="FONT_TYPE" value="3"/>
             </value>
         </option>
@@ -532,11 +527,6 @@
         <option name="DEFAULT_DOT">
             <value>
                 <option name="FOREGROUND" value="8aa8a2"/>
-            </value>
-        </option>
-        <option name="DEFAULT_ENTITY">
-            <value>
-                <option name="FOREGROUND" value="99bdb5"/>
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
@@ -558,7 +548,7 @@
         </option>
         <option name="DEFAULT_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="99bdb5"/>
+                <option name="FOREGROUND" value="dde5ed"/>
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER"/>
@@ -569,7 +559,7 @@
         </option>
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="99bdb5"/>
+                <option name="FOREGROUND" value="a7e372"/>
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
@@ -595,11 +585,6 @@
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
-        <option name="DEFAULT_LOCAL_VARIABLE">
-            <value>
-                <option name="FOREGROUND" value="99bdb5"/>
-            </value>
-        </option>
         <option name="DEFAULT_METADATA">
             <value>
                 <option name="FOREGROUND" value="ffff57"/>
@@ -612,7 +597,7 @@
         </option>
         <option name="DEFAULT_OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="8aa8a2"/>
+                <option name="FOREGROUND" value="dde5ed"/>
             </value>
         </option>
         <option name="DEFAULT_PARAMETER">
@@ -632,8 +617,8 @@
         </option>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="99bdb5"/>
-                <option name="EFFECT_COLOR" value="99bdb5"/>
+                <option name="FOREGROUND" value="dde5ed"/>
+                <option name="EFFECT_COLOR" value="dde5ed"/>
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
@@ -651,7 +636,7 @@
         </option>
         <option name="DEFAULT_STATIC_FIELD">
             <value>
-                <option name="FOREGROUND" value="99bdb5"/>
+                <option name="FOREGROUND" value="dde5ed"/>
                 <option name="FONT_TYPE" value="2"/>
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
@@ -1121,11 +1106,8 @@
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
-        <option name="JS.GLOBAL_VARIABLE">
-            <value>
-                <option name="FOREGROUND" value="fcfafa"/>
-            </value>
-        </option>
+        <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION"/>
+        <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE"/>
         <option name="JS.INSTANCE_MEMBER_FUNCTION">
             <value>
                 <option name="FOREGROUND" value="a7e372"/>
@@ -3449,7 +3431,7 @@
         </option>
         <option name="TEXT">
             <value>
-                <option name="FOREGROUND" value="dde5ed"/>
+                <option name="FOREGROUND" value="a8c7c0"/>
                 <option name="BACKGROUND" value="1b2423"/>
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
@@ -3511,7 +3493,7 @@
         </option>
         <option name="TYPO">
             <value>
-                <option name="EFFECT_COLOR" value="dde5ed"/>
+                <option name="EFFECT_COLOR" value="a8c7c0"/>
                 <option name="EFFECT_TYPE" value="2"/>
             </value>
         </option>
@@ -3602,7 +3584,5 @@
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
-        <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION"/>
-        <option name="KOTLIN_ANNOTATION" baseAttributes="ANNOTATION_NAME_ATTRIBUTES"/>
     </attributes>
 </scheme>

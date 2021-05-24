@@ -10,7 +10,7 @@
         ]]>
     </description>
 
-    <idea-version since-build="173.0"/>
+    <idea-version since-build="191.0"/>
 
     <depends>com.intellij.modules.platform</depends>
 
