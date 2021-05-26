@@ -17,6 +17,10 @@
             <h3>0.2.1</h3>
             <ul>
                 <li>Fixed faulty color replacement</li>
+                <li>Changed Java static method color to green</li>
+                <li>Changed Markdown code block color to blue</li>
+                <li>Changed whitespace color to text color</li>
+                <li>Changed property color to inherit keyword color (red)</li>
             </ul>
             <h3>0.2.0</h3>
             <ul>
