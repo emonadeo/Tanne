@@ -21,6 +21,7 @@
                 <li>Changed Markdown code block color to blue</li>
                 <li>Changed whitespace color to text color</li>
                 <li>Changed property color to inherit keyword color (red)</li>
+                <li>Added inlay hint colors</li>
             </ul>
             <h3>0.2.0</h3>
             <ul>
