@@ -13,7 +13,18 @@
         "conifer700": "#67837e",
         "conifer800": "#a8c7c0",
         "conifer900": "#dde5ed",
-        "accent": "#ffff57"
+        "floralRed": "#f47653",
+        "floralRedTransparent": "#f476530f",
+        "floralOrange": "#ffc757",
+        "floralOrangeTransparent": "#ffc7570f",
+        "floralYellow": "#ffff57",
+        "floralYellowTransparent": "#ffff570f",
+        "floralGreen": "#a7e372",
+        "floralGreenTransparent": "#a7e3720f",
+        "floralBlue": "#79caf6",
+        "floralBlueTransparent": "#79caf60f",
+        "floralLilac": "#d488e7",
+        "floralLilacTransparent": "#d488e70f"
     },
     "ui": {
         "*": {
@@ -24,7 +35,7 @@
             "disabledForeground": "conifer600",
             "disabledText": "conifer600",
             "focusColor": "conifer600",
-            "focusedBorderColor": "accent",
+            "focusedBorderColor": "floralYellow",
             "foreground": "conifer900",
             "inactiveBackground": "conifer100",
             "inactiveForeground": "conifer800",
@@ -52,7 +63,7 @@
                 "endBackground": "conifer300",
                 "endBorderColor": "conifer400",
                 "foreground": "conifer900",
-                "focusColor": "accent",
+                "focusColor": "floralYellow",
                 "focusedBorderColor": "conifer400",
                 "shadowColor": "conifer300",
                 "startBackground": "conifer300",
@@ -73,7 +84,7 @@
             "background": "conifer200",
             "disabledText": "conifer600",
             "foreground": "conifer900",
-            "select": "accent"
+            "select": "floralYellow"
         },
         "CheckBoxMenuItem": {
             "acceleratorForeground": "conifer800",
@@ -83,7 +94,7 @@
             "disabledForeground": "conifer600",
             "foreground": "conifer900",
             "selectionBackground": "conifer500",
-            "selectionForeground": "accent"
+            "selectionForeground": "floralYellow"
         },
         "ColorChooser": {
             "background": "conifer200",
@@ -103,17 +114,17 @@
             "background": "conifer300",
             "disabledForeground": "conifer600",
             "foreground": "conifer900",
-            "modifiedItemForeground": "accent",
+            "modifiedItemForeground": "floralYellow",
             "nonEditableBackground": "conifer300",
             "selectionBackground": "conifer200",
-            "selectionForeground": "accent"
+            "selectionForeground": "floralYellow"
         },
         "ComboPopup": {
             "border": "conifer200"
         },
         "CompletionPopup": {
             "foreground": "conifer900",
-            "matchForeground": "accent",
+            "matchForeground": "floralYellow",
             "selectionInactiveBackground": "conifer500",
             "selectionBackground": "conifer500"
         },
@@ -121,25 +132,25 @@
             "arc": 4,
             "borderColor": "conifer400",
             "disabledBorderColor": "conifer400",
-            "focusColor": "accent",
-            "focusedBorderColor": "accent",
-            "hoverIconColor": "accent",
+            "focusColor": "floralYellow",
+            "focusedBorderColor": "floralYellow",
+            "hoverIconColor": "floralYellow",
             "infoForeground": "conifer800",
             "iconColor": "conifer900"
         },
         "Counter": {
-            "background": "accent",
+            "background": "floralYellow",
             "foreground": "conifer900"
         },
         "Debugger": {
             "Variables": {
                 "collectingDataForeground": "conifer800",
-                "changedValueForeground": "accent",
+                "changedValueForeground": "floralYellow",
                 "errorMessageForeground": "#f47653",
                 "evaluatingExpressionForeground": "conifer800",
                 "exceptionForeground": "#5ad4e6",
-                "modifyingValueForeground": "accent",
-                "valueForeground": "accent"
+                "modifyingValueForeground": "floralYellow",
+                "valueForeground": "floralYellow"
             }
         },
         "DebuggerTabs": {
@@ -152,8 +163,8 @@
             "background": "conifer200",
             "borderColor": "conifer200",
             "hoverBackground": "conifer300",
-            "inactiveUnderlineColor": "accent",
-            "underlineColor": "accent",
+            "inactiveUnderlineColor": "floralYellow",
+            "underlineColor": "floralYellow",
             "underlinedTabBackground": "conifer200",
             "underlineHeight": 2
         },
@@ -169,33 +180,35 @@
         },
         "EditorPane": {
             "background": "conifer200",
-            "caretForeground": "accent",
+            "caretForeground": "floralYellow",
             "foreground": "conifer900",
             "inactiveBackground": "conifer200",
             "inactiveForeground": "conifer600",
             "selectionBackground": "conifer500",
-            "selectionForeground": "accent"
+            "selectionForeground": "floralYellow"
         },
         "EditorTabs": {
             "borderColor": "conifer400",
-            "inactiveUnderlineColor": "accent",
-            "underlineColor": "accent",
+            "inactiveUnderlineColor": "floralYellow",
+            "underlineColor": "floralYellow",
             "underlinedTabBackground": "conifer300",
             "underlinedTabForeground": "conifer900"
         },
         "FileColor": {
-            "Rose": "#f47653",
-            "Yellow": "accent",
-            "Orange": "#ffc757",
-            "Green": "#a7e372"
+            "Blue":  "floralBlueTransparent",
+            "Green": "floralGreenTransparent",
+            "Orange": "floralOrangeTransparent",
+            "Rose": "floralRedTransparent",
+            "Violet": "floralLilacTransparent",
+            "Yellow": "floralYellowTransparent"
         },
         "FormattedTextField": {
             "background": "conifer300",
-            "caretForeground": "accent",
+            "caretForeground": "floralYellow",
             "foreground": "conifer900",
             "inactiveBackground": "conifer500",
             "inactiveForeground": "conifer600",
-            "selectionForeground": "accent",
+            "selectionForeground": "floralYellow",
             "selectionBackground": "conifer500"
         },
         "Group": {
@@ -222,22 +235,22 @@
             "disabledText": "conifer600",
             "foreground": "conifer800",
             "infoForeground": "conifer800",
-            "selectedForeground": "accent"
+            "selectedForeground": "floralYellow"
         },
         "Link": {
-            "activeForeground": "accent",
-            "hoverForeground": "accent",
-            "pressedForeground": "accent",
+            "activeForeground": "floralYellow",
+            "hoverForeground": "floralYellow",
+            "pressedForeground": "floralYellow",
             "secondaryForeground": "conifer800",
-            "visitedForeground": "accent"
+            "visitedForeground": "floralYellow"
         },
         "List": {
             "background": "conifer200",
             "foreground": "conifer900",
             "selectionBackground": "conifer300",
-            "selectionForeground": "accent",
+            "selectionForeground": "floralYellow",
             "selectionInactiveBackground": "conifer300",
-            "selectionInactiveForeground": "accent"
+            "selectionInactiveForeground": "floralYellow"
         },
         "MemoryIndicator": {
             "allocatedBackground": "conifer500",
@@ -252,7 +265,7 @@
             "disabledForeground": "conifer600",
             "foreground": "conifer900",
             "separatorColor": "conifer200",
-            "selectionForeground": "accent"
+            "selectionForeground": "floralYellow"
         },
         "MenuBar": {
             "borderColor": "conifer200",
@@ -261,7 +274,7 @@
             "foreground": "conifer900",
             "highlight": "conifer200",
             "selectionBackground": "conifer500",
-            "selectionForeground": "accent",
+            "selectionForeground": "floralYellow",
             "shadow": "conifer100"
         },
         "MenuItem": {
@@ -271,7 +284,7 @@
             "disabledForeground": "conifer600",
             "foreground": "conifer900",
             "selectionBackground": "conifer500",
-            "selectionForeground": "accent"
+            "selectionForeground": "floralYellow"
         },
         "NavBar": {
             "borderColor": "conifer400"
@@ -309,7 +322,7 @@
             "background": "conifer500",
             "borderColor": "conifer400",
             "currentOverloadBackground": "conifer500",
-            "currentParameterForeground": "accent",
+            "currentParameterForeground": "floralYellow",
             "disabledForeground": "conifer600",
             "foreground": "conifer900",
             "infoForeground": "conifer800",
@@ -317,12 +330,12 @@
         },
         "PasswordField": {
             "background": "conifer500",
-            "capsLockIconColor": "accent",
-            "caretForeground": "accent",
+            "capsLockIconColor": "floralYellow",
+            "caretForeground": "floralYellow",
             "foreground": "conifer900",
             "inactiveForeground": "conifer600",
             "selectionBackground": "conifer600",
-            "selectionForeground": "accent"
+            "selectionForeground": "floralYellow"
         },
         "Plugins": {
             "background": "conifer200",
@@ -330,7 +343,7 @@
             "eapTagBackground": "conifer600",
             "lightSelectionBackground": "conifer300",
             "hoverBackground": "conifer300",
-            "tagForeground": "accent",
+            "tagForeground": "floralYellow",
             "tagBackground": "#242C2C",
             "Button": {
                 "installBackground": "conifer100",
@@ -361,7 +374,7 @@
             "Advertiser": {
                 "background": "conifer200",
                 "borderColor": "conifer200",
-                "foreground": "accent"
+                "foreground": "floralYellow"
             },
             "borderColor": "conifer100",
             "inactiveBorderColor": "conifer200",
@@ -390,10 +403,10 @@
         },
         "ProgressBar": {
             "background": "conifer200",
-            "foreground": "accent",
-            "indeterminateEndColor": "accent",
-            "indeterminateStartColor": "accent",
-            "progressColor": "accent",
+            "foreground": "floralYellow",
+            "indeterminateEndColor": "floralYellow",
+            "indeterminateStartColor": "floralYellow",
+            "progressColor": "floralYellow",
             "selectionBackground": "conifer600",
             "trackColor": "conifer600"
         },
@@ -410,7 +423,7 @@
             "disabledForeground": "conifer600",
             "foreground": "conifer900",
             "selectionBackground": "conifer500",
-            "selectionForeground": "accent"
+            "selectionForeground": "floralYellow"
         },
         "ScrollBar":  {
             "trackColor": "conifer200",
@@ -462,13 +475,13 @@
                 "infoForeground": "conifer800"
             },
             "Tab": {
-                "selectedForeground": "accent",
+                "selectedForeground": "floralYellow",
                 "selectedBackground": "conifer600"
             }
         },
         "SearchMatch": {
-            "endBackground": "accent",
-            "startBackground": "accent"
+            "endBackground": "floralYellow",
+            "startBackground": "floralYellow"
         },
         "Separator": {
             "separatorColor": "conifer300"
@@ -478,8 +491,8 @@
         },
         "Slider": {
             "background": "conifer200",
-            "buttonBorderColor": "accent",
-            "buttonColor": "accent",
+            "buttonBorderColor": "floralYellow",
+            "buttonColor": "floralYellow",
             "foreground": "conifer900",
             "tickColor": "conifer500",
             "trackColor": "conifer500"
@@ -514,21 +527,21 @@
             "foreground": "conifer900",
             "hoverColor": "conifer300",
             "tabSelectionHeight": 2,
-            "underlineColor": "accent"
+            "underlineColor": "floralYellow"
         },
         "Table": {
             "background": "conifer200",
-            "dropLineColor": "accent",
-            "dropLineShortColor": "accent",
+            "dropLineColor": "floralYellow",
+            "dropLineShortColor": "floralYellow",
             "focusCellBackground": "conifer100",
-            "focusCellForeground": "accent",
+            "focusCellForeground": "floralYellow",
             "foreground": "conifer900",
             "gridColor": "conifer100",
-            "lightSelectionForeground": "accent",
+            "lightSelectionForeground": "floralYellow",
             "lightSelectionInactiveForeground": "conifer900",
             "lightSelectionInactiveBackground": "conifer300",
             "selectionBackground": "conifer300",
-            "selectionForeground": "accent",
+            "selectionForeground": "floralYellow",
             "selectionInactiveBackground": "conifer300",
             "selectionInactiveForeground": "conifer900",
             "sortIconColor": "conifer900",
@@ -545,27 +558,27 @@
         "textText": "conifer800",
         "TextArea": {
             "background": "conifer300",
-            "caretForeground": "accent",
+            "caretForeground": "floralYellow",
             "foreground": "conifer900",
             "inactiveForeground": "conifer600",
             "selectionBackground": "conifer600",
-            "selectionForeground": "accent"
+            "selectionForeground": "floralYellow"
         },
         "TextField": {
             "background": "conifer300",
-            "caretForeground": "accent",
+            "caretForeground": "floralYellow",
             "foreground": "conifer900",
             "inactiveForeground": "conifer600",
             "selectionBackground": "conifer600",
-            "selectionForeground": "accent"
+            "selectionForeground": "floralYellow"
         },
         "TextPane": {
             "background": "conifer300",
-            "caretForeground": "accent",
+            "caretForeground": "floralYellow",
             "foreground": "conifer900",
             "inactiveForeground": "conifer600",
             "selectionBackground": "conifer600",
-            "selectionForeground": "accent"
+            "selectionForeground": "floralYellow"
         },
         "TitlePane": {
             "inactiveBackground": "conifer200",
@@ -582,8 +595,8 @@
             "foreground": "conifer800",
             "offForeground": "conifer200",
             "offBackground": "conifer200",
-            "onBackground": "accent",
-            "onForeground": "accent"
+            "onBackground": "floralYellow",
+            "onForeground": "floralYellow"
         },
         "ToolBar": {
             "background": "#222222",
@@ -605,7 +618,7 @@
         "ToolWindow": {
             "Button": {
                 "hoverBackground": "conifer300",
-                "selectedForeground": "accent",
+                "selectedForeground": "floralYellow",
                 "selectedBackground": "conifer300"
             },
             "Header": {
@@ -619,9 +632,9 @@
             "HeaderTab": {
                 "hoverBackground": "conifer300",
                 "hoverInactiveBackground": "conifer300",
-                "inactiveUnderlineColor": "accent",
+                "inactiveUnderlineColor": "floralYellow",
                 "selectedInactiveBackground": "conifer200",
-                "underlineColor": "accent",
+                "underlineColor": "floralYellow",
                 "underlinedTabBackground": "conifer300",
                 "underlinedTabInactiveBackground": "conifer300"
             }
@@ -657,14 +670,14 @@
                 }
             },
             "GitLog": {
-                "localBranchIconColor": "accent",
+                "localBranchIconColor": "floralYellow",
                 "otherIconColor": "conifer800",
                 "remoteBranchIconColor": "conifer900",
                 "tagIconColor": "conifer800"
             },
             "HgLog": {
-                "branchIconColor": "accent",
-                "bookmarkIconColor": "accent",
+                "branchIconColor": "floralYellow",
+                "bookmarkIconColor": "floralYellow",
                 "closedBranchIconColor": "conifer600",
                 "localTagIconColor": "conifer800",
                 "mqTagIconColor": "conifer800",
@@ -678,7 +691,7 @@
                 }
             },
             "RefLabel": {
-                "foreground": "accent",
+                "foreground": "floralYellow",
                 "backgroundBase": "conifer600"
             }
         },
