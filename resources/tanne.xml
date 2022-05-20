@@ -7,7 +7,7 @@
         <property name="originalScheme">Darcula</property>
     </metaInfo>
     <option name="FONT_SCALE" value="1.0"/>
-    <option name="LINE_SPACING" value="1.5"/>
+    <option name="LINE_SPACING" value="1.0"/>
     <font>
         <option name="EDITOR_FONT_NAME" value="Fira Code"/>
         <option name="EDITOR_FONT_SIZE" value="14"/>
