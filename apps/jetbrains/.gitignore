@@ -1,0 +1,10 @@
+.gradle
+.idea
+.qodana
+build
+
+# Built Templates
+src/main/resources/META-INF/pluginIcon.svg
+src/main/resources/META-INF/pluginIcon_dark.svg
+src/main/resources/tanne.theme.json
+src/main/resources/tanne.xml

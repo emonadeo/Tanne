@@ -1,0 +1,19 @@
+<idea-plugin>
+	<id>com.github.emonadeo.tanne</id>
+	<name>Tanne Theme</name>
+	<vendor url="https://github.com/emonadeo">Emonadeo</vendor>
+
+	<description>
+		<![CDATA[
+			Eye comforting dark green theme for JetBrains IDEs.
+			<br/><br/>
+			<img src="https://raw.githubusercontent.com/Emonadeo/Tanne/main/media/showcase.jpg" alt="showcase" width="700"/>
+		]]>
+	</description>
+
+	<depends>com.intellij.modules.platform</depends>
+
+	<extensions defaultExtensionNs="com.intellij">
+		<themeProvider id="3ee24c2b-dfef-4bee-b37e-18bd2864ffeb" path="/tanne.theme.json"/>
+	</extensions>
+</idea-plugin>
