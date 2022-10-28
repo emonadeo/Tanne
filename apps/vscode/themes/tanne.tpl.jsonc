@@ -1,0 +1,1316 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"type": "dark",
+	"colors": {
+		"activityBar.activeBorder": "{{ conifer.700 }}",
+		"activityBar.activeFocusBorder": "{{ conifer.800 }}",
+		"activityBar.background": "{{ conifer.200 }}",
+		"activityBar.border": "{{ conifer.400 }}",
+		"activityBar.dropBorder": "{{ conifer.500 }}",
+		"activityBar.foreground": "{{ conifer.800 }}",
+		"activityBar.inactiveForeground": "{{ conifer.700 }}",
+		"activityBarBadge.background": "{{ floral.yellow }}",
+		"activityBarBadge.foreground": "{{ conifer.200 }}",
+		"badge.background": "{{ conifer.300 }}",
+		"badge.foreground": "{{ conifer.800 }}",
+		"banner.background": "{{ conifer.400 }}",
+		"banner.foreground": "{{ conifer.900 }}",
+		"banner.iconForeground": "{{ conifer.900 }}",
+		"button.background": "{{ conifer.300 }}",
+		"button.border": "{{ conifer.400 }}",
+		"button.foreground": "{{ conifer.900 }}",
+		"button.hoverBackground": "{{ conifer.400 }}",
+		"charts.blue": "{{ floral.blue }}",
+		"charts.foreground": "{{ conifer.900 }}",
+		"charts.green": "{{ floral.green }}",
+		"charts.lines": "{{ conifer.800 }}",
+		"charts.orange": "{{ floral.orange }}",
+		"charts.purple": "{{ floral.lilac }}",
+		"charts.red": "{{ floral.red }}",
+		"charts.yellow": "{{ floral.yellow }}",
+		"checkbox.background": "{{ conifer.300 }}",
+		"checkbox.border": "{{ conifer.400 }}",
+		"checkbox.foreground": "{{ conifer.900 }}",
+		"descriptionForeground": "{{ conifer.900 }}",
+		"diffEditor.border": "{{ conifer.300 }}",
+		"diffEditor.insertedTextBackground": "{{ floral.green }}0f",
+		"diffEditor.removedTextBackground": "{{ floral.red }}0f",
+		"dropdown.background": "{{ conifer.300 }}",
+		"dropdown.border": "{{ conifer.300 }}",
+		"dropdown.foreground": "{{ conifer.900 }}",
+		"dropdown.listBackground": "{{ conifer.300 }}",
+		"editor.background": "{{ conifer.200 }}",
+		"editor.findMatchBackground": "{{ conifer.600 }}88",
+		"editor.findMatchHighlightBackground": "{{ conifer.600 }}88",
+		"editor.findRangeHighlightBackground": "{{ conifer.600 }}88",
+		"editor.foreground": "{{ conifer.800 }}",
+		"editor.hoverHighlightBackground": "{{ conifer.300 }}",
+		"editor.inactiveSelectionBackground": "{{ conifer.500 }}88",
+		"editor.lineHighlightBackground": "{{ conifer.300 }}",
+		"editor.rangeHighlightBackground": "{{ conifer.600 }}88",
+		"editor.selectionBackground": "{{ conifer.500 }}",
+		"editor.selectionForeground": "{{ conifer.900 }}",
+		"editor.selectionHighlightBackground": "{{ conifer.400 }}88",
+		"editor.symbolHighlightBackground": "{{ conifer.600 }}88",
+		"editor.wordHighlightBackground": "{{ conifer.400 }}88",
+		"editor.wordHighlightStrongBackground": "{{ conifer.500 }}88",
+		"editorBracketMatch.background": "{{ conifer.600 }}",
+		"editorBracketMatch.border": "#00000000",
+		"editorCodeLens.foreground": "{{ conifer.700 }}",
+		"editorCursor.foreground": "{{ conifer.900 }}",
+		"editorError.foreground": "{{ floral.red }}",
+		"editorGroup.border": "{{ conifer.400 }}",
+		"editorGroup.dropBackground": "{{ conifer.900 }}0f",
+		"editorGroup.emptyBackground": "{{ conifer.200 }}",
+		"editorGroup.focusedEmptyBorder": "{{ conifer.500 }}",
+		"editorGroupHeader.border": "{{ conifer.400 }}",
+		"editorGroupHeader.noTabsBackground": "{{ conifer.200 }}",
+		"editorGroupHeader.tabsBackground": "{{ conifer.200 }}",
+		"editorGutter.addedBackground": "{{ floral.green }}",
+		"editorGutter.commentRangeForeground": "{{ conifer.600 }}",
+		"editorGutter.deletedBackground": "{{ floral.red }}",
+		"editorGutter.foldingControlForeground": "{{ conifer.700 }}",
+		"editorGutter.modifiedBackground": "{{ floral.orange }}",
+		"editorHint.foreground": "{{ conifer.800 }}",
+		"editorIndentGuide.activeBackground": "{{ conifer.600 }}",
+		"editorIndentGuide.background": "{{ conifer.400 }}",
+		"editorInfo.foreground": "{{ conifer.900 }}",
+		"editorInlayHint.background": "{{ conifer.600 }}",
+		"editorInlayHint.foreground": "{{ conifer.900 }}",
+		"editorInlayHint.parameterBackground": "{{ conifer.600 }}",
+		"editorInlayHint.parameterForeground": "{{ conifer.900 }}",
+		"editorInlayHint.typeBackground": "{{ conifer.600 }}",
+		"editorInlayHint.typeForeground": "{{ conifer.900 }}",
+		"editorLightBulb.foreground": "{{ floral.orange }}",
+		"editorLightBulbAutoFix.foreground": "{{ floral.green }}",
+		"editorLineNumber.activeForeground": "{{ conifer.800 }}",
+		"editorLineNumber.foreground": "{{ conifer.600 }}",
+		"editorLink.activeForeground": "{{ floral.blue }}",
+		"editorOverviewRuler.addedForeground": "{{ floral.green }}88",
+		"editorOverviewRuler.bracketMatchForeground": "{{ conifer.600 }}88",
+		"editorOverviewRuler.deletedForeground": "{{ floral.red }}88",
+		"editorOverviewRuler.errorForeground": "{{ floral.red }}88",
+		"editorOverviewRuler.findMatchForeground": "{{ conifer.600 }}88",
+		"editorOverviewRuler.infoForeground": "{{ conifer.900 }}88",
+		"editorOverviewRuler.modifiedForeground": "{{ floral.orange }}88",
+		"editorOverviewRuler.rangeHighlightForeground": "{{ conifer.600 }}88",
+		"editorOverviewRuler.selectionHighlightForeground": "{{ conifer.700 }}88",
+		"editorOverviewRuler.warningForeground": "{{ floral.orange }}88",
+		"editorPane.background": "{{ conifer.200 }}",
+		"editorRuler.foreground": "{{ conifer.700 }}",
+		"editorUnicodeHighlight.border": "{{ conifer.400 }}",
+		"editorUnnecessaryCode.opacity": "#00000088",
+		"editorWarning.foreground": "{{ floral.orange }}",
+		"editorWhitespace.foreground": "{{ conifer.600 }}",
+		"editorWidget.background": "{{ conifer.300 }}",
+		"editorWidget.border": "{{ conifer.400 }}",
+		"editorWidget.foreground": "{{ conifer.900 }}",
+		"errorForeground": "{{ floral.red }}",
+		"extensionBadge.remoteBackground": "{{ conifer.700 }}",
+		"extensionBadge.remoteForeground": "{{ conifer.200 }}",
+		"extensionButton.prominentBackground": "{{ conifer.700 }}",
+		"extensionButton.prominentForeground": "{{ conifer.200 }}",
+		"extensionButton.prominentHoverBackground": "{{ conifer.800 }}",
+		"extensionIcon.preReleaseForeground": "{{ floral.red }}",
+		"extensionIcon.starForeground": "{{ floral.yellow }}",
+		"extensionIcon.verifiedForeground": "{{ floral.orange }}",
+		"focusBorder": "#00000000",
+		"foreground": "{{ conifer.900 }}",
+		"gitDecoration.addedResourceForeground": "{{ floral.green }}",
+		"gitDecoration.conflictingResourceForeground": "{{ floral.red }}",
+		"gitDecoration.deletedResourceForeground": "{{ floral.red }}",
+		"gitDecoration.ignoredResourceForeground": "{{ conifer.800 }}",
+		"gitDecoration.modifiedResourceForeground": "{{ floral.orange }}",
+		"gitDecoration.renamedResourceForeground": "{{ floral.yellow }}",
+		"gitDecoration.stageDeletedResourceForeground": "{{ floral.red }}88",
+		"gitDecoration.stageModifiedResourceForeground": "{{ floral.orange }}88",
+		"gitDecoration.submoduleResourceForeground": "{{ floral.blue }}",
+		"gitDecoration.untrackedResourceForeground": "{{ conifer.900 }}",
+		"icon.foreground": "{{ conifer.900 }}",
+		"input.background": "{{ conifer.300 }}",
+		"input.border": "{{ conifer.400 }}",
+		"input.foreground": "{{ conifer.900 }}",
+		"input.placeholderForeground": "{{ conifer.800 }}",
+		"inputOption.activeBackground": "{{ conifer.300 }}",
+		"inputOption.activeBorder": "{{ conifer.400 }}",
+		"inputOption.activeForeground": "{{ conifer.900 }}",
+		"inputOption.hoverBackground": "{{ conifer.400 }}",
+		"inputValidation.errorBackground": "{{ conifer.300 }}",
+		"inputValidation.errorBorder": "{{ floral.red }}",
+		"inputValidation.errorForeground": "{{ floral.red }}",
+		"inputValidation.infoBackground": "{{ conifer.300 }}",
+		"inputValidation.infoBorder": "{{ conifer.400 }}",
+		"inputValidation.infoForeground": "{{ conifer.900 }}",
+		"inputValidation.warningBackground": "{{ conifer.300 }}",
+		"inputValidation.warningBorder": "{{ floral.orange }}",
+		"inputValidation.warningForeground": "{{ floral.orange }}",
+		"keybindingLabel.background": "{{ conifer.500 }}",
+		"keybindingLabel.border": "{{ conifer.400 }}",
+		"keybindingLabel.bottomBorder": "{{ conifer.400 }}",
+		"keybindingLabel.foreground": "{{ conifer.900 }}",
+		"keybindingTable.headerBackground": "{{ conifer.300 }}",
+		"keybindingTable.rowsBackground": "{{ conifer.200 }}",
+		"list.activeSelectionBackground": "{{ conifer.300 }}",
+		"list.activeSelectionForeground": "{{ conifer.900 }}",
+		"list.activeSelectionIconForeground": "{{ conifer.900 }}",
+		"list.deemphasizedForeground": "{{ conifer.700 }}",
+		"list.dropBackground": "{{ conifer.400 }}",
+		"list.errorForeground": "{{ floral.red }}",
+		"list.filterMatchBackground": "{{ conifer.300 }}",
+		"list.filterMatchBorder": "{{ conifer.300 }}",
+		"list.focusBackground": "{{ conifer.300 }}",
+		"list.focusForeground": "{{ conifer.300 }}",
+		"list.focusHighlightForeground": "{{ floral.yellow }}",
+		"list.focusOutline": "{{ conifer.300 }}",
+		"list.highlightForeground": "{{ floral.yellow }}",
+		"list.hoverBackground": "{{ conifer.300 }}",
+		"list.hoverForeground": "{{ conifer.900 }}",
+		"list.inactiveFocusBackground": "{{ conifer.300 }}",
+		"list.inactiveFocusOutline": "{{ conifer.300 }}",
+		"list.inactiveSelectionBackground": "{{ conifer.300 }}",
+		"list.inactiveSelectionForeground": "{{ conifer.900 }}",
+		"list.inactiveSelectionIconForeground": "{{ conifer.900 }}",
+		"list.invalidItemForeground": "{{ floral.red }}",
+		"list.warningForeground": "{{ floral.orange }}",
+		"listFilterWidget.background": "{{ conifer.300 }}",
+		"listFilterWidget.noMatchesOutline": "{{ conifer.300 }}",
+		"listFilterWidget.outline": "{{ conifer.300 }}",
+		"menu.background": "{{ conifer.300 }}",
+		"menu.foreground": "{{ conifer.900 }}",
+		"menu.selectionBackground": "{{ conifer.400 }}",
+		"menu.selectionForeground": "{{ conifer.900 }}",
+		"menu.separatorBackground": "{{ conifer.800 }}",
+		"menubar.selectionBackground": "{{ conifer.400 }}",
+		"menubar.selectionForeground": "{{ conifer.800 }}",
+		"minimap.errorHighlight": "{{ floral.red }}",
+		"minimap.findMatchHighlight": "{{ floral.yellow }}",
+		"minimap.selectionHighlight": "{{ conifer.700 }}",
+		"minimap.selectionOccurrenceHighlight": "{{ conifer.700 }}",
+		"minimap.warningHighlight": "{{ floral.orange }}",
+		"minimapGutter.addedBackground": "{{ floral.green }}",
+		"minimapGutter.deletedBackground": "{{ floral.red }}",
+		"minimapGutter.modifiedBackground": "{{ floral.orange }}",
+		"minimapSlider.activeBackground": "{{ conifer.900 }}18",
+		"minimapSlider.background": "{{ conifer.900 }}0f",
+		"minimapSlider.hoverBackground": "{{ conifer.900 }}0f",
+		"notificationCenterHeader.background": "{{ conifer.300 }}",
+		"notificationCenterHeader.foreground": "{{ conifer.800 }}",
+		"notificationLink.foreground": "{{ conifer.900 }}",
+		"notifications.background": "{{ conifer.300 }}",
+		"notifications.foreground": "{{ conifer.800 }}",
+		"notificationsErrorIcon.foreground": "{{ floral.red }}",
+		"notificationsInfoIcon.foreground": "{{ conifer.900 }}",
+		"notificationsWarningIcon.foreground": "{{ floral.orange }}",
+		"panel.background": "{{ conifer.200 }}",
+		"panel.border": "{{ conifer.400 }}",
+		"panel.dropBorder": "{{ conifer.500 }}",
+		"panelInput.border": "{{ conifer.400 }}",
+		"panelSection.border": "{{ conifer.400 }}",
+		"panelSection.dropBackground": "{{ conifer.900 }}0f",
+		"panelSectionHeader.background": "{{ conifer.200 }}",
+		"panelSectionHeader.border": "{{ conifer.400 }}",
+		"panelSectionHeader.foreground": "{{ conifer.900 }}",
+		"panelTitle.activeBorder": "{{ conifer.900 }}",
+		"panelTitle.activeForeground": "{{ conifer.900 }}",
+		"panelTitle.inactiveForeground": "{{ conifer.800 }}",
+		"peekView.border": "{{ conifer.300 }}",
+		"peekViewEditor.background": "{{ conifer.300 }}",
+		"peekViewTitle.background": "{{ conifer.300 }}",
+		"peekViewTitleDescription.foreground": "{{ conifer.800 }}",
+		"peekViewTitleLabel.foreground": "{{ conifer.900 }}",
+		"ports.iconRunningProcessForeground": "#369432",
+		"problemsErrorIcon.foreground": "{{ floral.red }}",
+		"problemsWarningIcon.foreground": "{{ floral.orange }}",
+		"progressBar.background": "{{ conifer.300 }}",
+		"quickInput.background": "{{ conifer.300 }}",
+		"quickInput.foreground": "{{ conifer.900 }}",
+		"quickInputList.focusBackground": "{{ conifer.400 }}",
+		"quickInputList.focusForeground": "{{ conifer.900 }}",
+		"quickInputList.focusIconForeground": "{{ conifer.900 }}",
+		"quickInputTitle.background": "{{ conifer.400 }}",
+		"sash.hoverBorder": "{{ conifer.500 }}",
+		"scm.providerBorder": "{{ conifer.400 }}",
+		"scrollbar.shadow": "#00000000",
+		"scrollbarSlider.activeBackground": "{{ conifer.500 }}",
+		"scrollbarSlider.background": "{{ conifer.500 }}88",
+		"scrollbarSlider.hoverBackground": "{{ conifer.500 }}cc",
+		"searchEditor.findMatchBackground": "{{ conifer.600 }}88",
+		"selection.background": "{{ conifer.500 }}",
+		"settings.checkboxBackground": "{{ conifer.400 }}",
+		"settings.checkboxForeground": "{{ conifer.900 }}",
+		"settings.dropdownBackground": "{{ conifer.400 }}",
+		"settings.dropdownForeground": "{{ conifer.900 }}",
+		"settings.focusedRowBackground": "{{ conifer.300 }}",
+		"settings.focusedRowBorder": "#00000000",
+		"settings.headerForeground": "{{ conifer.900 }}",
+		"settings.modifiedItemIndicator": "{{ floral.orange }}",
+		"settings.numberInputBackground": "{{ conifer.400 }}",
+		"settings.numberInputForeground": "{{ conifer.900 }}",
+		"settings.rowHoverBackground": "{{ conifer.300 }}",
+		"settings.textInputBackground": "{{ conifer.400 }}",
+		"settings.textInputForeground": "{{ conifer.900 }}",
+		"sideBar.background": "{{ conifer.200 }}",
+		"sideBar.border": "{{ conifer.400 }}",
+		"sideBar.dropBackground": "{{ conifer.900 }}0f",
+		"sideBar.foreground": "{{ conifer.900 }}",
+		"sideBarSectionHeader.background": "{{ conifer.300 }}",
+		"sideBarSectionHeader.border": "{{ conifer.400 }}",
+		"sideBarSectionHeader.foreground": "{{ conifer.800 }}",
+		"sideBarTitle.foreground": "{{ conifer.800 }}",
+		"sideBySideEditor.horizontalBorder": "{{ conifer.400 }}",
+		"sideBySideEditor.verticalBorder": "{{ conifer.400 }}",
+		"statusBar.background": "{{ conifer.200 }}",
+		"statusBar.border": "{{ conifer.400 }}",
+		"statusBar.debuggingBackground": "{{ conifer.200 }}",
+		"statusBar.debuggingBorder": "{{ conifer.400 }}",
+		"statusBar.debuggingForeground": "{{ conifer.800 }}",
+		"statusBar.foreground": "{{ conifer.800 }}",
+		"statusBar.noFolderBackground": "{{ conifer.200 }}",
+		"statusBar.noFolderBorder": "{{ conifer.400 }}",
+		"statusBar.noFolderForeground": "{{ conifer.800 }}",
+		"statusBarItem.activeBackground": "{{ conifer.400 }}",
+		"statusBarItem.errorBackground": "{{ floral.red }}44",
+		"statusBarItem.errorForeground": "{{ floral.red }}",
+		"statusBarItem.hoverBackground": "{{ conifer.400 }}",
+		"statusBarItem.prominentBackground": "{{ conifer.200 }}",
+		"statusBarItem.prominentForeground": "{{ conifer.900 }}",
+		"statusBarItem.prominentHoverBackground": "{{ conifer.400 }}",
+		"statusBarItem.remoteBackground": "{{ conifer.200 }}",
+		"statusBarItem.remoteForeground": "{{ conifer.900 }}",
+		"statusBarItem.warningBackground": "{{ floral.orange }}44",
+		"statusBarItem.warningForeground": "{{ floral.orange }}",
+		"tab.activeBackground": "{{ conifer.300 }}",
+		"tab.activeBorder": "{{ floral.orange }}",
+		"tab.activeForeground": "{{ conifer.900 }}",
+		"tab.hoverBackground": "{{ conifer.400 }}",
+		"tab.hoverForeground": "{{ conifer.900 }}",
+		"tab.inactiveBackground": "{{ conifer.200 }}",
+		"tab.lastPinnedBorder": "{{ conifer.400 }}",
+		"tab.unfocusedActiveBackground": "{{ conifer.300 }}",
+		"tab.unfocusedActiveBorder": "{{ floral.orange }}88",
+		"tab.unfocusedHoverBackground": "{{ conifer.400 }}",
+		"tab.unfocusedHoverForeground": "{{ conifer.900 }}",
+		"tab.unfocusedInactiveBackground": "{{ conifer.200 }}",
+		"terminal.ansiBlack": "{{ conifer.200 }}",
+		"terminal.ansiBlue": "{{ floral.lilac }}",
+		"terminal.ansiBrightBlue": "{{ floral.lilac }}",
+		"terminal.ansiBrightCyan": "{{ floral.blue }}",
+		"terminal.ansiBrightGreen": "{{ floral.green }}",
+		"terminal.ansiBrightMagenta": "{{ floral.orange }}",
+		"terminal.ansiBrightRed": "{{ floral.red }}",
+		"terminal.ansiBrightWhite": "{{ conifer.900 }}",
+		"terminal.ansiBrightYellow": "{{ floral.yellow }}",
+		"terminal.ansiCyan": "{{ floral.blue }}",
+		"terminal.ansiGreen": "{{ floral.green }}",
+		"terminal.ansiMagenta": "{{ floral.orange }}",
+		"terminal.ansiRed": "{{ floral.red }}",
+		"terminal.ansiWhite": "{{ conifer.800 }}",
+		"terminal.ansiYellow": "{{ floral.yellow }}",
+		"terminal.background": "{{ conifer.200 }}",
+		"terminal.border": "{{ conifer.400 }}",
+		"terminal.dropBackground": "{{ conifer.900 }}0f",
+		"terminal.foreground": "{{ conifer.900 }}",
+		"terminal.selectionBackground": "{{ conifer.500 }}",
+		"titleBar.activeBackground": "{{ conifer.200 }}",
+		"titleBar.activeForeground": "{{ conifer.800 }}",
+		"titleBar.border": "{{ conifer.400 }}",
+		"titleBar.inactiveBackground": "{{ conifer.200 }}",
+		"titleBar.inactiveForeground": "{{ conifer.800 }}",
+		"tree.indentGuidesStroke": "{{ conifer.600 }}",
+		"tree.tableColumnsBorder": "{{ conifer.600 }}",
+		"tree.tableOddRowsBackground": "{{ conifer.400 }}",
+		"walkThrough.embeddedEditorBackground": "{{ conifer.200 }}",
+		"welcomePage.background": "{{ conifer.200 }}",
+		"welcomePage.progress.background": "{{ conifer.400 }}",
+		"welcomePage.progress.foreground": "{{ conifer.800 }}",
+		"welcomePage.tileBackground": "{{ conifer.300 }}",
+		"welcomePage.tileHoverBackground": "{{ conifer.400 }}",
+		"welcomePage.tileShadow": "{{ conifer.100 }}",
+		"window.activeBorder": "{{ conifer.400 }}",
+		"window.inactiveBorder": "{{ conifer.400 }}",
+		//"activityBarItem.settingsProfilesBackground": "#293635",
+		//"activityBarItem.settingsProfilesForeground": "{{ conifer.700 }}",
+		//"activityBarItem.settingsProfilesHoverForeground": "{{ conifer.800 }}",
+		//"breadcrumb.activeSelectionForeground": "#fbfcfd",
+		//"breadcrumb.background": "{{ conifer.200 }}",
+		//"breadcrumb.focusForeground": "#fbfcfd",
+		//"breadcrumb.foreground": "{{ conifer.900 }}cc",
+		//"breadcrumbPicker.background": "{{ conifer.300 }}",
+		//"button.secondaryBackground": "#3a3d41",
+		//"button.secondaryForeground": "#ffffff",
+		//"button.secondaryHoverBackground": "#45494e",
+		//"button.separator": "{{ conifer.900 }}66",
+		//"commandCenter.activeBackground": "{{ conifer.400 }}",
+		//"commandCenter.activeForeground": "{{ conifer.800 }}",
+		//"commandCenter.border": "{{ conifer.400 }}",
+		//"commandCenter.foreground": "{{ conifer.800 }}",
+		//"dart.closingLabels": "{{ conifer.900 }}80",
+		//"dart.flutterUiGuides": "#a3a3a3",
+		//"debugConsole.errorForeground": "{{ floral.red }}",
+		//"debugConsole.infoForeground": "{{ conifer.900 }}",
+		//"debugConsole.sourceForeground": "{{ conifer.900 }}",
+		//"debugConsole.warningForeground": "{{ floral.orange }}",
+		//"debugConsoleInputIcon.foreground": "{{ conifer.900 }}",
+		//"debugExceptionWidget.background": "#420b0d",
+		//"debugExceptionWidget.border": "#a31515",
+		//"debugIcon.breakpointCurrentStackframeForeground": "#ffcc00",
+		//"debugIcon.breakpointDisabledForeground": "#848484",
+		//"debugIcon.breakpointForeground": "#e51400",
+		//"debugIcon.breakpointStackframeForeground": "#89d185",
+		//"debugIcon.breakpointUnverifiedForeground": "#848484",
+		//"debugIcon.continueForeground": "#75beff",
+		//"debugIcon.disconnectForeground": "#f48771",
+		//"debugIcon.pauseForeground": "#75beff",
+		//"debugIcon.restartForeground": "#89d185",
+		//"debugIcon.startForeground": "#89d185",
+		//"debugIcon.stepBackForeground": "#75beff",
+		//"debugIcon.stepIntoForeground": "#75beff",
+		//"debugIcon.stepOutForeground": "#75beff",
+		//"debugIcon.stepOverForeground": "#75beff",
+		//"debugIcon.stopForeground": "#f48771",
+		//"debugTokenExpression.boolean": "#4e94ce",
+		//"debugTokenExpression.error": "#f48771",
+		//"debugTokenExpression.name": "#c586c0",
+		//"debugTokenExpression.number": "#b5cea8",
+		//"debugTokenExpression.string": "#ce9178",
+		//"debugTokenExpression.value": "#cccccc99",
+		//"debugToolBar.background": "#333333",
+		//"debugView.exceptionLabelBackground": "#6c2022",
+		//"debugView.exceptionLabelForeground": "{{ conifer.900 }}",
+		//"debugView.stateLabelBackground": "#88888844",
+		//"debugView.stateLabelForeground": "{{ conifer.900 }}",
+		//"debugView.valueChangedHighlight": "#569cd6",
+		//"diffEditor.diagonalFill": "#cccccc33",
+		//"diffEditor.insertedLineBackground": "#9bb95533",
+		//"diffEditor.removedLineBackground": "#ff000033",
+		//"disabledForeground": "#cccccc80",
+		//"editor.focusedStackFrameHighlightBackground": "#7abd7a4d",
+		//"editor.foldBackground": "{{ conifer.500 }}4d",
+		//"editor.inlineValuesBackground": "#ffc80033",
+		//"editor.inlineValuesForeground": "#ffffff80",
+		//"editor.lineHighlightBorder": "#282828",
+		//"editor.linkedEditingBackground": "#ff00004d",
+		//"editor.snippetFinalTabstopHighlightBorder": "#525252",
+		//"editor.snippetTabstopHighlightBackground": "#7c7c7c4d",
+		//"editor.stackFrameHighlightBackground": "#ffff0033",
+		//"editorActiveLineNumber.foreground": "#c6c6c6",
+		//"editorBracketHighlight.foreground1": "#ffd700",
+		//"editorBracketHighlight.foreground2": "#da70d6",
+		//"editorBracketHighlight.foreground3": "#179fff",
+		//"editorBracketHighlight.foreground4": "#00000000",
+		//"editorBracketHighlight.foreground5": "#00000000",
+		//"editorBracketHighlight.foreground6": "#00000000",
+		//"editorBracketHighlight.unexpectedBracket.foreground": "#ff1212cc",
+		//"editorBracketPairGuide.activeBackground1": "#00000000",
+		//"editorBracketPairGuide.activeBackground2": "#00000000",
+		//"editorBracketPairGuide.activeBackground3": "#00000000",
+		//"editorBracketPairGuide.activeBackground4": "#00000000",
+		//"editorBracketPairGuide.activeBackground5": "#00000000",
+		//"editorBracketPairGuide.activeBackground6": "#00000000",
+		//"editorBracketPairGuide.background1": "#00000000",
+		//"editorBracketPairGuide.background2": "#00000000",
+		//"editorBracketPairGuide.background3": "#00000000",
+		//"editorBracketPairGuide.background4": "#00000000",
+		//"editorBracketPairGuide.background5": "#00000000",
+		//"editorBracketPairGuide.background6": "#00000000",
+		//"editorCommentsWidget.rangeActiveBackground": "{{ conifer.300 }}1a",
+		//"editorCommentsWidget.rangeActiveBorder": "{{ conifer.300 }}66",
+		//"editorCommentsWidget.rangeBackground": "{{ conifer.300 }}1a",
+		//"editorCommentsWidget.rangeBorder": "{{ conifer.300 }}66",
+		//"editorCommentsWidget.resolvedBorder": "#cccccc80",
+		//"editorCommentsWidget.unresolvedBorder": "{{ conifer.300 }}",
+		//"editorGhostText.foreground": "#ffffff56",
+		//"editorGroup.dropIntoPromptBackground": "{{ conifer.300 }}",
+		//"editorGroup.dropIntoPromptForeground": "{{ conifer.900 }}",
+		//"editorGutter.background": "{{ conifer.200 }}",
+		//"editorHoverWidget.background": "{{ conifer.300 }}",
+		//"editorHoverWidget.border": "{{ conifer.400 }}",
+		//"editorHoverWidget.foreground": "{{ conifer.900 }}",
+		//"editorHoverWidget.highlightForeground": "{{ floral.yellow }}",
+		//"editorHoverWidget.statusBarBackground": "#2a3836",
+		//"editorMarkerNavigation.background": "{{ conifer.200 }}",
+		//"editorMarkerNavigationError.background": "{{ floral.red }}",
+		//"editorMarkerNavigationError.headerBackground": "{{ floral.red }}1a",
+		//"editorMarkerNavigationInfo.background": "{{ conifer.900 }}",
+		//"editorMarkerNavigationInfo.headerBackground": "{{ conifer.900 }}1a",
+		//"editorMarkerNavigationWarning.background": "{{ floral.orange }}",
+		//"editorMarkerNavigationWarning.headerBackground": "{{ floral.orange }}1a",
+		//"editorOverviewRuler.border": "#7f7f7f4d",
+		//"editorOverviewRuler.commonContentForeground": "#60606066",
+		//"editorOverviewRuler.currentContentForeground": "#40c8ae80",
+		//"editorOverviewRuler.incomingContentForeground": "#40a6ff80",
+		//"editorOverviewRuler.wordHighlightForeground": "#a0a0a0cc",
+		//"editorOverviewRuler.wordHighlightStrongForeground": "#c0a0c0cc",
+		//"editorStickyScroll.background": "{{ conifer.200 }}",
+		//"editorStickyScrollHover.background": "#2a2d2e",
+		//"editorSuggestWidget.background": "{{ conifer.300 }}",
+		//"editorSuggestWidget.border": "{{ conifer.400 }}",
+		//"editorSuggestWidget.focusHighlightForeground": "{{ floral.yellow }}",
+		//"editorSuggestWidget.foreground": "{{ conifer.800 }}",
+		//"editorSuggestWidget.highlightForeground": "{{ floral.yellow }}",
+		//"editorSuggestWidget.selectedBackground": "{{ conifer.400 }}",
+		//"editorSuggestWidget.selectedForeground": "{{ conifer.900 }}",
+		//"editorSuggestWidget.selectedIconForeground": "{{ conifer.900 }}",
+		//"editorSuggestWidgetStatus.foreground": "{{ conifer.800 }}80",
+		//"editorUnicodeHighlight.background": "#bd9b0326",
+		//"extensionIcon.sponsorForeground": "#d758b3",
+		//"interactive.activeCodeBorder": "{{ conifer.300 }}",
+		//"interactive.inactiveCodeBorder": "{{ conifer.300 }}",
+		//"listFilterWidget.shadow": "#0000005c",
+		//"merge.commonContentBackground": "#60606029",
+		//"merge.commonHeaderBackground": "#60606066",
+		//"merge.currentContentBackground": "#40c8ae33",
+		//"merge.currentHeaderBackground": "#40c8ae80",
+		//"merge.incomingContentBackground": "#40a6ff33",
+		//"merge.incomingHeaderBackground": "#40a6ff80",
+		//"mergeEditor.change.background": "#9bb95533",
+		//"mergeEditor.change.word.background": "#9ccc2c33",
+		//"mergeEditor.conflict.handled.minimapOverViewRuler": "#adaca8ee",
+		//"mergeEditor.conflict.handledFocused.border": "#c1c1c1cc",
+		//"mergeEditor.conflict.handledUnfocused.border": "#86868649",
+		//"mergeEditor.conflict.unhandled.minimapOverViewRuler": "#fcba03",
+		//"mergeEditor.conflict.unhandledFocused.border": "#ffa600",
+		//"mergeEditor.conflict.unhandledUnfocused.border": "#ffa6007a",
+		//"mergeEditor.conflictingLines.background": "#ffea0047",
+		//"minimap.foregroundOpacity": "#000000",
+		//"notebook.cellBorderColor": "{{ conifer.300 }}",
+		//"notebook.cellEditorBackground": "{{ conifer.200 }}",
+		//"notebook.cellInsertionIndicator": "#00000000",
+		//"notebook.cellStatusBarItemHoverBackground": "#ffffff26",
+		//"notebook.cellToolbarSeparator": "#80808059",
+		//"notebook.editorBackground": "{{ conifer.200 }}",
+		//"notebook.focusedCellBorder": "#00000000",
+		//"notebook.focusedEditorBorder": "#00000000",
+		//"notebook.inactiveFocusedCellBorder": "{{ conifer.300 }}",
+		//"notebook.selectedCellBackground": "{{ conifer.300 }}",
+		//"notebook.selectedCellBorder": "{{ conifer.300 }}",
+		//"notebook.symbolHighlightBackground": "#ffffff0b",
+		//"notebookScrollbarSlider.activeBackground": "{{ conifer.500 }}",
+		//"notebookScrollbarSlider.background": "{{ conifer.500 }}88",
+		//"notebookScrollbarSlider.hoverBackground": "{{ conifer.500 }}cc",
+		//"notebookStatusErrorIcon.foreground": "{{ floral.red }}",
+		//"notebookStatusRunningIcon.foreground": "{{ conifer.900 }}",
+		//"notebookStatusSuccessIcon.foreground": "#89d185",
+		//"notifications.border": "{{ conifer.300 }}",
+		//"peekViewEditor.matchHighlightBackground": "#ff8f0099",
+		//"peekViewEditorGutter.background": "{{ conifer.300 }}",
+		//"peekViewResult.background": "#252526",
+		//"peekViewResult.fileForeground": "#ffffff",
+		//"peekViewResult.lineForeground": "#bbbbbb",
+		//"peekViewResult.matchHighlightBackground": "#ea5c004d",
+		//"peekViewResult.selectionBackground": "#3399ff33",
+		//"peekViewResult.selectionForeground": "#ffffff",
+		//"pickerGroup.border": "#3f3f46",
+		//"pickerGroup.foreground": "#3794ff",
+		//"problemsInfoIcon.foreground": "{{ conifer.900 }}",
+		//"searchEditor.textInputBorder": "{{ conifer.400 }}",
+		//"settings.checkboxBorder": "{{ conifer.400 }}",
+		//"settings.dropdownBorder": "{{ conifer.300 }}",
+		//"settings.dropdownListBorder": "{{ conifer.400 }}",
+		//"settings.headerBorder": "{{ conifer.400 }}",
+		//"settings.numberInputBorder": "{{ conifer.400 }}",
+		//"settings.sashBorder": "{{ conifer.400 }}",
+		//"settings.textInputBorder": "{{ conifer.400 }}",
+		//"sqltools.currentQueryBg": "#00a2ff20",
+		//"sqltools.currentQueryOutline": "#00a2ff20",
+		//"statusBar.focusBorder": "{{ conifer.800 }}",
+		//"statusBarItem.compactHoverBackground": "#ffffff33",
+		//"statusBarItem.focusBorder": "{{ conifer.800 }}",
+		//"symbolIcon.arrayForeground": "{{ conifer.900 }}",
+		//"symbolIcon.booleanForeground": "{{ conifer.900 }}",
+		//"symbolIcon.classForeground": "#ee9d28",
+		//"symbolIcon.colorForeground": "{{ conifer.900 }}",
+		//"symbolIcon.constantForeground": "{{ conifer.900 }}",
+		//"symbolIcon.constructorForeground": "#b180d7",
+		//"symbolIcon.enumeratorForeground": "#ee9d28",
+		//"symbolIcon.enumeratorMemberForeground": "#75beff",
+		//"symbolIcon.eventForeground": "#ee9d28",
+		//"symbolIcon.fieldForeground": "#75beff",
+		//"symbolIcon.fileForeground": "{{ conifer.900 }}",
+		//"symbolIcon.folderForeground": "{{ conifer.900 }}",
+		//"symbolIcon.functionForeground": "#b180d7",
+		//"symbolIcon.interfaceForeground": "#75beff",
+		//"symbolIcon.keyForeground": "{{ conifer.900 }}",
+		//"symbolIcon.keywordForeground": "{{ conifer.900 }}",
+		//"symbolIcon.methodForeground": "#b180d7",
+		//"symbolIcon.moduleForeground": "{{ conifer.900 }}",
+		//"symbolIcon.namespaceForeground": "{{ conifer.900 }}",
+		//"symbolIcon.nullForeground": "{{ conifer.900 }}",
+		//"symbolIcon.numberForeground": "{{ conifer.900 }}",
+		//"symbolIcon.objectForeground": "{{ conifer.900 }}",
+		//"symbolIcon.operatorForeground": "{{ conifer.900 }}",
+		//"symbolIcon.packageForeground": "{{ conifer.900 }}",
+		//"symbolIcon.propertyForeground": "{{ conifer.900 }}",
+		//"symbolIcon.referenceForeground": "{{ conifer.900 }}",
+		//"symbolIcon.snippetForeground": "{{ conifer.900 }}",
+		//"symbolIcon.stringForeground": "{{ conifer.900 }}",
+		//"symbolIcon.structForeground": "{{ conifer.900 }}",
+		//"symbolIcon.textForeground": "{{ conifer.900 }}",
+		//"symbolIcon.typeParameterForeground": "{{ conifer.900 }}",
+		//"symbolIcon.unitForeground": "{{ conifer.900 }}",
+		//"symbolIcon.variableForeground": "#75beff",
+		//"tab.activeModifiedBorder": "#3399cc",
+		//"tab.border": "#252526",
+		//"tab.inactiveForeground": "{{ conifer.900 }}80",
+		//"tab.inactiveModifiedBorder": "#3399cc80",
+		//"tab.unfocusedActiveForeground": "{{ conifer.900 }}80",
+		//"tab.unfocusedActiveModifiedBorder": "#3399cc80",
+		//"tab.unfocusedInactiveForeground": "{{ conifer.900 }}40",
+		//"tab.unfocusedInactiveModifiedBorder": "#3399cc40",
+		//"terminal.ansiBrightBlack": "#666666",
+		//"terminal.findMatchBackground": "{{ conifer.600 }}88",
+		//"terminal.findMatchHighlightBackground": "{{ conifer.600 }}88",
+		//"terminal.inactiveSelectionBackground": "{{ conifer.500 }}80",
+		//"terminal.tab.activeBorder": "{{ floral.orange }}",
+		//"terminalCommandDecoration.defaultBackground": "#ffffff40",
+		//"terminalCommandDecoration.errorBackground": "#f14c4c",
+		//"terminalCommandDecoration.successBackground": "#1b81a8",
+		//"terminalOverviewRuler.cursorForeground": "#a0a0a0cc",
+		//"terminalOverviewRuler.findMatchForeground": "{{ conifer.600 }}88",
+		//"testing.iconErrored": "#f14c4c",
+		//"testing.iconFailed": "#f14c4c",
+		//"testing.iconPassed": "#73c991",
+		//"testing.iconQueued": "#cca700",
+		//"testing.iconSkipped": "#848484",
+		//"testing.iconUnset": "#848484",
+		//"testing.message.error.decorationForeground": "{{ floral.red }}",
+		//"testing.message.error.lineBackground": "#ff000033",
+		//"testing.message.info.decorationForeground": "{{ conifer.800 }}80",
+		//"testing.peekBorder": "{{ floral.red }}",
+		//"testing.peekHeaderBackground": "{{ floral.red }}1a",
+		//"testing.runAction": "#73c991",
+		//"textBlockQuote.background": "#7f7f7f1a",
+		//"textBlockQuote.border": "#007acc80",
+		//"textCodeBlock.background": "#0a0a0a66",
+		//"textLink.activeForeground": "#3794ff",
+		//"textLink.foreground": "#3794ff",
+		//"textPreformat.foreground": "#d7ba7d",
+		//"textSeparator.foreground": "#ffffff2e",
+		//"toolbar.activeBackground": "#63666750",
+		//"toolbar.hoverBackground": "#5a5d5e50",
+		//"widget.shadow": "#0000005c",
+		//"activityBar.activeBackground": null,
+		//"commandCenter.background": null,
+		//"contrastActiveBorder": null,
+		//"contrastBorder": null,
+		//"debugToolBar.border": null,
+		//"diffEditor.insertedTextBorder": null,
+		//"diffEditor.removedTextBorder": null,
+		//"diffEditorGutter.insertedLineBackground": null,
+		//"diffEditorGutter.removedLineBackground": null,
+		//"diffEditorOverview.insertedForeground": null,
+		//"diffEditorOverview.removedForeground": null,
+		//"editor.findMatchBorder": null,
+		//"editor.findMatchHighlightBorder": null,
+		//"editor.findRangeHighlightBorder": null,
+		//"editor.rangeHighlightBorder": null,
+		//"editor.selectionHighlightBorder": null,
+		//"editor.snippetFinalTabstopHighlightBackground": null,
+		//"editor.snippetTabstopHighlightBorder": null,
+		//"editor.symbolHighlightBorder": null,
+		//"editor.wordHighlightBorder": null,
+		//"editor.wordHighlightStrongBorder": null,
+		//"editorCursor.background": null,
+		//"editorError.background": null,
+		//"editorError.border": null,
+		//"editorGhostText.background": null,
+		//"editorGhostText.border": null,
+		//"editorGroup.dropIntoPromptBorder": null,
+		//"editorGroupHeader.tabsBorder": null,
+		//"editorHint.border": null,
+		//"editorInfo.background": null,
+		//"editorInfo.border": null,
+		//"editorOverviewRuler.background": null,
+		//"editorUnnecessaryCode.border": null,
+		//"editorWarning.background": null,
+		//"editorWarning.border": null,
+		//"editorWidget.resizeBorder": null,
+		//"list.focusAndSelectionOutline": null,
+		//"menu.border": null,
+		//"menu.selectionBorder": null,
+		//"menubar.selectionBorder": null,
+		//"merge.border": null,
+		//"minimap.background": null,
+		//"notebook.cellHoverBackground": null,
+		//"notebook.focusedCellBackground": null,
+		//"notebook.inactiveSelectedCellBorder": null,
+		//"notebook.outputContainerBackgroundColor": null,
+		//"notebook.outputContainerBorderColor": null,
+		//"notificationCenter.border": null,
+		//"notificationToast.border": null,
+		//"peekViewEditor.matchHighlightBorder": null,
+		//"quickInput.list.focusBackground": null,
+		//"searchEditor.findMatchBorder": null,
+		//"tab.activeBorderTop": null,
+		//"tab.hoverBorder": null,
+		//"tab.unfocusedActiveBorderTop": null,
+		//"tab.unfocusedHoverBorder": null,
+		//"terminal.findMatchBorder": null,
+		//"terminal.findMatchHighlightBorder": null,
+		//"terminal.selectionForeground": null,
+		//"terminalCursor.background": null,
+		//"terminalCursor.foreground": null,
+		//"testing.message.info.lineBackground": null,
+		//"toolbar.hoverOutline": null
+	},
+	"tokenColors": [
+		{
+			"scope": "comment",
+			"settings": {
+				"foreground": "{{ conifer.700 }}"
+			}
+		},
+		{
+			"scope": "punctuation.definition.comment",
+			"settings": {
+				"foreground": "{{ conifer.700 }}"
+			}
+		},
+		{
+			"scope": "string",
+			"settings": {
+				"foreground": "{{ floral.green }}"
+			}
+		},
+		{
+			"scope": "meta.embedded.assembly",
+			"settings": {
+				"foreground": "{{ floral.green }}"
+			}
+		},
+		{
+			"scope": "keyword - keyword.operator",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "keyword.control",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "storage",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "{{ floral.yellow }}"
+			}
+		},
+		{
+			"scope": "entity.name.type",
+			"settings": {
+				"foreground": "{{ floral.green }}"
+			}
+		},
+		{
+			"scope": "entity.name.class",
+			"settings": {
+				"foreground": "{{ floral.green }}"
+			}
+		},
+		{
+			"scope": "support.type",
+			"settings": {
+				"foreground": "{{ floral.green }}"
+			}
+		},
+		{
+			"scope": "support.class",
+			"settings": {
+				"foreground": "{{ floral.green }}"
+			}
+		},
+		{
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "{{ floral.green }}"
+			}
+		},
+		{
+			"scope": "support.function",
+			"settings": {
+				"foreground": "{{ floral.green }}"
+			}
+		},
+		{
+			"scope": "variable",
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": "entity.name.variable",
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": [
+				"meta.embedded",
+				"source.groovy.embedded"
+			],
+			"settings": {
+				"foreground": "{{ conifer.800 }}"
+			}
+		},
+		{
+			"scope": "emphasis",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "strong",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "comment",
+			"settings": {
+				"foreground": "{{ conifer.700 }}"
+			}
+		},
+		{
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "{{ floral.orange }}"
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric",
+				"variable.other.enummember",
+				"keyword.operator.plus.exponent",
+				"keyword.operator.minus.exponent"
+			],
+			"settings": {
+				"foreground": "{{ floral.yellow }}"
+			}
+		},
+		{
+			"scope": "constant.regexp",
+			"settings": {
+				"foreground": "{{ floral.orange }}"
+			}
+		},
+		{
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "entity.name.tag.css",
+			"settings": {
+				"foreground": "{{ floral.yellow }}"
+			}
+		},
+		{
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.mixin.css",
+				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.parent-selector.css",
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css",
+				"source.css.less entity.other.attribute-name.id",
+				"entity.other.attribute-name.scss"
+			],
+			"settings": {
+				"foreground": "{{ floral.yellow }}"
+			}
+		},
+		{
+			"scope": "invalid",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "markup.underline",
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": "markup.bold",
+			"settings": {
+				"foreground": "{{ conifer.900 }}",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "markup.heading",
+			"settings": {
+				"foreground": "{{ conifer.900 }}",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "markup.italic",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "markup.strikethrough",
+			"settings": {
+				"fontStyle": "strikethrough"
+			}
+		},
+		{
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "{{ floral.orange }}"
+			}
+		},
+		{
+			"scope": "punctuation.definition.quote.begin.markdown",
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": "punctuation.definition.list.begin.markdown",
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": "markup.inline.raw",
+			"settings": {
+				"foreground": "{{ floral.yellow }}"
+			}
+		},
+		{
+			"scope": "punctuation.definition.tag",
+			"settings": {
+				"foreground": "{{ conifer.800 }}"
+			}
+		},
+		{
+			"scope": [
+				"meta.preprocessor",
+				"entity.name.function.preprocessor"
+			],
+			"settings": {
+				"foreground": "{{ floral.green }}"
+			}
+		},
+		{
+			"scope": "meta.preprocessor.string",
+			"settings": {
+				"foreground": "{{ floral.orange }}"
+			}
+		},
+		{
+			"scope": "meta.preprocessor.numeric",
+			"settings": {
+				"foreground": "{{ floral.yellow }}"
+			}
+		},
+		{
+			"scope": "meta.structure.dictionary.key.python",
+			"settings": {
+				"foreground": "{{ floral.yellow }}"
+			}
+		},
+		{
+			"scope": "meta.diff.header",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "storage",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": [
+				"storage.modifier",
+				"keyword.operator.noexcept"
+			],
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": [
+				"string",
+				"meta.embedded.assembly"
+			],
+			"settings": {
+				"foreground": "{{ floral.orange }}"
+			}
+		},
+		{
+			"scope": "string.tag",
+			"settings": {
+				"foreground": "{{ floral.orange }}"
+			}
+		},
+		{
+			"scope": "string.value",
+			"settings": {
+				"foreground": "{{ floral.orange }}"
+			}
+		},
+		{
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "{{ floral.orange }}"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": [
+				"meta.template.expression"
+			],
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": [
+				"support.type.vendored.property-name",
+				"support.type.property-name",
+				"variable.css",
+				"variable.scss",
+				"variable.other.less",
+				"source.coffee.embedded"
+			],
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": "keyword",
+			"settings": {
+				"foreground": "{{ floral.orange }}"
+			}
+		},
+		{
+			"scope": "keyword.control",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.new",
+				"keyword.operator.expression",
+				"keyword.operator.cast",
+				"keyword.operator.sizeof",
+				"keyword.operator.alignof",
+				"keyword.operator.typeid",
+				"keyword.operator.alignas",
+				"keyword.operator.instanceof",
+				"keyword.operator.logical.python",
+				"keyword.operator.wordlike"
+			],
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "keyword.other.unit",
+			"settings": {
+				"foreground": "{{ floral.orange }}"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php"
+			],
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "support.function.git-rebase",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "constant.sha.git-rebase",
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": [
+				"storage.modifier.import.java",
+				"variable.language.wildcard.java",
+				"storage.modifier.package.java"
+			],
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": "variable.language",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function",
+				"support.function",
+				"support.constant.handlebars",
+				"source.powershell variable.other.member",
+				"entity.name.operator.custom-literal"
+			],
+			"settings": {
+				"foreground": "{{ floral.green }}"
+			}
+		},
+		{
+			"scope": [
+				"meta.return-type",
+				"support.class",
+				"support.type",
+				"entity.name.type",
+				"entity.name.namespace",
+				"entity.other.attribute",
+				"entity.name.scope-resolution",
+				"entity.name.class",
+				"storage.type.numeric.go",
+				"storage.type.byte.go",
+				"storage.type.boolean.go",
+				"storage.type.string.go",
+				"storage.type.uintptr.go",
+				"storage.type.error.go",
+				"storage.type.rune.go",
+				"storage.type.cs",
+				"storage.type.generic.cs",
+				"storage.type.modifier.cs",
+				"storage.type.variable.cs",
+				"storage.type.annotation.java",
+				"storage.type.generic.java",
+				"storage.type.java",
+				"storage.type.object.array.java",
+				"storage.type.primitive.array.java",
+				"storage.type.primitive.java",
+				"storage.type.token.java",
+				"storage.type.groovy",
+				"storage.type.annotation.groovy",
+				"storage.type.parameters.groovy",
+				"storage.type.generic.groovy",
+				"storage.type.object.array.groovy",
+				"storage.type.primitive.array.groovy",
+				"storage.type.primitive.groovy"
+			],
+			"settings": {
+				"foreground": "{{ floral.green }}"
+			}
+		},
+		{
+			"scope": [
+				"meta.type.cast.expr",
+				"meta.type.new.expr",
+				"support.constant.math",
+				"support.constant.dom",
+				"support.constant.json",
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "{{ floral.green }}"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control",
+				"source.cpp keyword.operator.new",
+				"keyword.operator.delete",
+				"keyword.other.using",
+				"keyword.other.operator",
+				"entity.name.operator"
+			],
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": [
+				"variable",
+				"meta.definition.variable.name",
+				"support.variable",
+				"entity.name.variable",
+				"constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.constant",
+				"variable.other.enummember"
+			],
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": [
+				"meta.object-literal.key"
+			],
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": [
+				"support.constant.property-value",
+				"support.constant.font-name",
+				"support.constant.media-type",
+				"support.constant.media",
+				"constant.other.color.rgb-value",
+				"constant.other.rgb-value",
+				"support.constant.color"
+			],
+			"settings": {
+				"foreground": "{{ floral.orange }}"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.group.regexp",
+				"punctuation.definition.group.assertion.regexp",
+				"punctuation.definition.character-class.regexp",
+				"punctuation.character.set.begin.regexp",
+				"punctuation.character.set.end.regexp",
+				"keyword.operator.negation.regexp",
+				"support.other.parenthesis.regexp"
+			],
+			"settings": {
+				"foreground": "{{ floral.orange }}"
+			}
+		},
+		{
+			"scope": [
+				"constant.character.character-class.regexp",
+				"constant.other.character-class.set.regexp",
+				"constant.other.character-class.regexp",
+				"constant.character.set.regexp"
+			],
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.or.regexp",
+				"keyword.control.anchor.regexp"
+			],
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": "keyword.operator.quantifier.regexp",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "constant.character",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "{{ floral.yellow }}"
+			}
+		},
+		{
+			"scope": "entity.name.label",
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": "token.info-token",
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
+			}
+		},
+		{
+			"scope": "token.warn-token",
+			"settings": {
+				"foreground": "{{ floral.orange }}"
+			}
+		},
+		{
+			"scope": "token.error-token",
+			"settings": {
+				"foreground": "{{ floral.red }}"
+			}
+		},
+		{
+			"scope": "token.debug-token",
+			"settings": {
+				"foreground": "{{ floral.yellow }}"
+			}
+		}
+	]
+}

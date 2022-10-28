@@ -2,6 +2,8 @@
 	"tasks": {
 		"build:jetbrains": "deno run --allow-read --allow-write ./build/build.ts ./apps/jetbrains && ./apps/jetbrains/gradlew :buildPlugin -p ./apps/jetbrains && deno run --allow-read --allow-write ./build/clean.ts ./apps/jetbrains",
 		"build:jetbrains:win": "deno run --allow-read --allow-write ./build/build.ts ./apps/jetbrains && ./apps/jetbrains/gradlew.bat :buildPlugin -p ./apps/jetbrains && deno run --allow-read --allow-write ./build/clean.ts ./apps/jetbrains",
-		"clean:jetbrains": "deno run --allow-read --allow-write ./build/clean.ts ./apps/jetbrains"
+		"clean:jetbrains": "deno run --allow-read --allow-write ./build/clean.ts ./apps/jetbrains",
+		"build:vscode": "deno run --allow-read --allow-write ./build/build.ts ./apps/vscode",
+		"clean:vscode": "deno run --allow-read --allow-write ./build/clean.ts ./apps/vscode"
 	}
 }

@@ -1,0 +1,21 @@
+{
+	"name": "tanne",
+	"displayName": "Tanne",
+	"description": "",
+	"version": "1.0.0-next.0",
+	"engines": {
+		"vscode": "^1.72.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Tanne",
+				"uiTheme": "vs-dark",
+				"path": "./themes/tanne.jsonc"
+			}
+		]
+	}
+}
