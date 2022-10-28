@@ -1,3 +1,6 @@
 .vscode/
 
 tanne.json
+icon.png
+icon.svg
+package.json

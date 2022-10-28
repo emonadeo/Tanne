@@ -6,9 +6,12 @@
 	"engines": {
 		"vscode": "^1.72.0"
 	},
-	"categories": [
-		"Themes"
-	],
+	"categories": ["Themes"],
+	"icon": "icon.svg",
+	"galleryBanner": {
+		"color": "{{ conifer.600 }}",
+		"theme": "dark"
+	},
 	"contributes": {
 		"themes": [
 			{

@@ -1,4 +1,9 @@
 .vscode/**
 
 .gitignore
+
+# Templates
+icon.tpl.svg
+icon.svg
 tanne.tpl.json
+package.tpl.json
