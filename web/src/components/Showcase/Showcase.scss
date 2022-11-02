@@ -1,0 +1,49 @@
+@use "../../styles/theme.scss";
+
+.showcase {
+	ol {
+		grid-column: 3 / span 3;
+		margin-bottom: 2rem;
+		display: flex;
+		gap: 2rem;
+
+		input {
+			display: none;
+		}
+
+		li {
+			&.selected button svg {
+				fill: theme.$conifer-900;
+			}
+
+			button {
+				border: none;
+				padding: 0;
+				background-color: transparent;
+
+				svg {
+					height: 2rem;
+					fill: theme.$conifer-800;
+				}
+
+				&:hover {
+					svg {
+						fill: theme.$floral-yellow;
+					}
+				}
+			}
+		}
+	}
+
+	#showcase-placeholder {
+		grid-column: start / end;
+		display: flex;
+		justify-content: center;
+		aspect-ratio: 16 / 10;
+		background-color: theme.$surface;
+		border-radius: 1rem;
+		box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+		color: theme.$conifer-300;
+		padding: 4rem;
+	}
+}

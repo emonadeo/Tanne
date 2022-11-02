@@ -1,0 +1,49 @@
+// Minimal SCSS port of https://seek-oss.github.io/capsize/
+
+@use "sass:map";
+@use "sass:math";
+
+@function leadingTrim($value, $lineHeightOffset, $fontSize) {
+	@return $value - math.div($lineHeightOffset, $fontSize);
+}
+
+@mixin capsize($metrics, $capHeight, $lineGap) {
+	$metricsCapHeight: map.get($metrics, "capHeight");
+	$metricsAscent: map.get($metrics, "ascent");
+	$metricsDescent: map.get($metrics, "descent");
+	$metricsUnitsPerEm: map.get($metrics, "unitsPerEm");
+
+	$capHeightScale: math.div($metricsCapHeight, $metricsUnitsPerEm);
+	$ascentScale: math.div($metricsAscent, $metricsUnitsPerEm);
+	$descentScale: math.div(math.abs($metricsDescent), $metricsUnitsPerEm);
+
+	$fontSize: math.div($capHeight, $capHeightScale);
+	$lineHeight: $capHeight + $lineGap;
+
+	// Massive formula don't question
+	$offset: math.div(
+		math.div(
+			math.div(
+					($metricsAscent + math.abs($metricsDescent)),
+					$metricsUnitsPerEm
+				) * $fontSize - $lineHeight,
+			2
+		),
+		$fontSize
+	);
+
+	font-size: #{$fontSize}px;
+	line-height: #{$lineHeight}px;
+
+	&::before {
+		content: "";
+		margin-block-end: #{($ascentScale - $capHeightScale - $offset) * -1}em;
+		display: table;
+	}
+
+	&::after {
+		content: "";
+		margin-block-start: #{($descentScale - $offset) * -1}em;
+		display: table;
+	}
+}

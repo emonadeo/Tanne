@@ -1,0 +1,16 @@
+@use "capsize.scss";
+
+@mixin space-grotesk($cap-height, $line-gap) {
+	font-family: "Space Grotesk", sans-serif;
+	font-feature-settings: "ss02" 1, "ss03" 1, "ss04" 1;
+	@include capsize.capsize(
+		(
+			"capHeight": 700,
+			"ascent": 984,
+			"descent": -292,
+			"unitsPerEm": 1000,
+		),
+		$cap-height,
+		$line-gap
+	);
+}

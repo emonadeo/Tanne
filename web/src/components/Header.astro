@@ -1,0 +1,113 @@
+---
+import imgGitHub from "../assets/github.svg";
+import imgLogo from "../assets/logo.svg";
+---
+
+<header class="grid">
+	<nav>
+		<ol role="list">
+			<li class="logo">
+				<a href="/">
+					<img src={imgLogo} alt="Home" />
+				</a>
+			</li>
+			<li class="tab">
+				<a href="/apps"><span class="type-label-lg">Apps</span></a>
+			</li>
+			<li class="tab">
+				<a href="/docs"><span class="type-label-lg">Docs</span></a>
+			</li>
+			<li class="social">
+				<a href="https://github.com/Emonadeo/Tanne">
+					<img src={imgGitHub} alt="GitHub" />
+				</a>
+			</li>
+		</ol>
+	</nav>
+</header>
+
+<style lang="scss">
+	@use "../styles/theme.scss";
+	@use "../styles/screen.scss";
+
+	header {
+		nav {
+			height: 100%;
+
+			ol {
+				height: 100%;
+				display: flex;
+				justify-content: flex-start;
+
+				li {
+					height: 100%;
+
+					&.logo {
+						a {
+							img {
+								height: 3rem;
+							}
+						}
+					}
+
+					&.tab {
+						justify-self: start;
+
+						a {
+							border-bottom: 4px solid theme.$conifer-700;
+							padding-bottom: 6.8px;
+
+							&:hover {
+								border-bottom-color: theme.$floral-yellow;
+							}
+						}
+					}
+
+					&.social {
+						justify-self: flex-end;
+
+						a {
+							img {
+								height: 2rem;
+							}
+						}
+					}
+
+					a {
+						height: 100%;
+						display: flex;
+						align-items: flex-end;
+						color: inherit;
+					}
+				}
+			}
+		}
+
+		@include screen.lg {
+			nav,
+			nav ol {
+				display: grid;
+				grid-template-columns: repeat(7, 1fr);
+				column-gap: 2rem;
+			}
+
+			nav {
+				grid-column: 1 / span 7;
+
+				ol {
+					grid-column: span 7;
+
+					li {
+						&.logo {
+							grid-column: 1 / span 2;
+						}
+
+						&.social {
+							grid-column: 7;
+						}
+					}
+				}
+			}
+		}
+	}
+</style>

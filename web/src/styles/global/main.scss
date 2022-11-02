@@ -1,0 +1,72 @@
+@use "../theme.scss";
+
+:root {
+	color-scheme: dark;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background-color: theme.$background;
+	color: theme.$on-background;
+}
+
+#app {
+	display: flex;
+	flex-direction: column;
+}
+
+// Reset Lists
+
+ul[role="list"],
+ol[role="list"] {
+	padding: 0;
+	margin: 0;
+
+	li {
+		display: block;
+	}
+}
+
+// Default `a` style
+a {
+	text-decoration: none;
+}
+
+// Default textfield style
+input[type="text"] {
+	display: block;
+	height: 42px;
+	padding-inline: 0.75rem;
+	border: none;
+	border-radius: 4px;
+	background-color: theme.$surface;
+}
+
+// Default button style
+button {
+	cursor: pointer;
+}
+
+// Default iframe style
+iframe {
+	border: none;
+}
+
+// Default table style
+table {
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 0;
+}
+
+h5,
+h6 {
+	margin: 0;
+}

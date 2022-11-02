@@ -1,0 +1,53 @@
+---
+import MainLayout from "../layouts/Main.astro";
+
+import Showcase from "../components/Showcase/Showcase";
+---
+
+<MainLayout title="Tanne">
+	<main>
+		<section class="grid hero">
+			<h1>No need to touch grass.</h1>
+			<p>Eye-comforting color scheme for coding all day and all night.</p>
+		</section>
+		<Showcase client:load />
+	</main>
+</MainLayout>
+
+<style lang="scss">
+	@use "../styles/theme.scss";
+	@use "../styles/screen.scss";
+
+	main {
+		padding-block: 4rem;
+
+		.hero {
+			margin-bottom: 4rem;
+			row-gap: 4rem;
+		}
+	}
+
+	@include screen.xl {
+		main {
+			.hero {
+				h1 {
+					grid-column: 3 / span 4;
+				}
+
+				p {
+					grid-column: 4 / span 2;
+				}
+			}
+		}
+	}
+
+	@include screen.xxl {
+		main {
+			.hero {
+				h1 {
+					grid-column: 3 / span 3;
+				}
+			}
+		}
+	}
+</style>

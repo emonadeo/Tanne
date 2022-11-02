@@ -1,0 +1,21 @@
+@use "../screen.scss";
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 2rem;
+
+	@include screen.lg {
+		grid-template-columns: [start] repeat(7, 1fr) [end];
+		padding-inline: 2rem;
+	}
+
+	@include screen.xl {
+		padding-inline: 6rem;
+	}
+
+	@include screen.xxl {
+		grid-template-columns: [start] repeat(7, 10rem) [end];
+		justify-content: center;
+	}
+}
