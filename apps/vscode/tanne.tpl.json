@@ -339,13 +339,7 @@
 	},
 	"tokenColors": [
 		{
-			"scope": "comment",
-			"settings": {
-				"foreground": "{{ conifer.700 }}"
-			}
-		},
-		{
-			"scope": "punctuation.definition.comment",
+			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
 				"foreground": "{{ conifer.700 }}"
 			}
@@ -456,12 +450,6 @@
 			"scope": "strong",
 			"settings": {
 				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": "comment",
-			"settings": {
-				"foreground": "{{ conifer.700 }}"
 			}
 		},
 		{
@@ -704,7 +692,7 @@
 		{
 			"scope": "keyword",
 			"settings": {
-				"foreground": "{{ floral.orange }}"
+				"foreground": "{{ floral.red }}"
 			}
 		},
 		{
@@ -975,6 +963,18 @@
 			"scope": "token.debug-token",
 			"settings": {
 				"foreground": "{{ floral.yellow }}"
+			}
+		},
+		{
+			"scope": "keyword.operator.address",
+			"settings": {
+				"foreground": "{{ floral.yellow }}"
+			}
+		},
+		{
+			"scope": ["source.go", "source.sql"],
+			"settings": {
+				"foreground": "{{ conifer.900 }}"
 			}
 		}
 	]
